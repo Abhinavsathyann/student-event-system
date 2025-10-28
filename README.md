@@ -35,5 +35,24 @@ Students can register, log in, browse upcoming events, and register for them —
 
 ---
 
-## 🗂️ Folder Structure
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Prerequisites
+Make sure these are installed on your system:
+- [XAMPP](https://www.apachefriends.org)
+- PHP 8+
+- MySQL
+- A modern browser (Chrome, Edge, Firefox)
+
+---
+
+### 2️⃣ Installation
+
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/abhinavsathyann/campus-event-portal.git
+
 
