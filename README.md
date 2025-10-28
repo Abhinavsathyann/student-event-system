@@ -106,9 +106,13 @@ private $password = "";
 If you imported the sample SQL:
 
 Email: admin@portal.com
+
 Password: admin123
 
 - If not, create it manually:
+- 
 INSERT INTO users (name, email, password, role)
+
 VALUES ('Admin', 'admin@portal.com', 
+
 '$2y$10$N4HkCKU6eWcV5lgh8kN6TOeBGfgmkhMps/fBChY3pJKlRtu8ngU0u', 'admin');
