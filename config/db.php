@@ -1,12 +1,21 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$dbname = "event_system";
+class Database {
+    private $host = "localhost";
+    private $db_name = "campus_event_portal";
+    private $username = "root";
+    private $password = "";
+    public $conn;
 
-$conn = mysqli_connect($host, $user, $pass, $dbname);
-
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+    public function connect(){
+        $this->conn = null;
+        try{
+            $this->conn = new PDO("mysql:host=".$this->host.";dbname=".$this->db_name, 
+            $this->username, $this->password);
+            $this->conn->exec("set names utf8");
+        }catch(PDOException $exception){
+            echo "Connection error: " . $exception->getMessage();
+        }
+        return $this->conn;
+    }
 }
 ?>
