@@ -55,4 +55,40 @@ Make sure these are installed on your system:
    ```bash
    git clone https://github.com/abhinavsathyann/campus-event-portal.git
 
+Or manually extract it into:
 
+C:\xampp\htdocs\campus-event-portal
+
+
+Start XAMPP and activate:
+
+Apache
+
+MySQL
+
+Open phpMyAdmin:
+
+http://localhost/phpmyadmin
+
+
+Create a new database:
+
+campus_event_portal
+
+
+Import the provided SQL file:
+
+/database/campus_event_portal.sql
+
+
+Configure the database connection in:
+
+app/config/database.php
+
+
+Example:
+
+private $host = "localhost";
+private $db_name = "campus_event_portal";
+private $username = "root";
+private $password = "";
