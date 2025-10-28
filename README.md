@@ -55,7 +55,7 @@ Make sure these are installed on your system:
    ```bash
    git clone https://github.com/abhinavsathyann/campus-event-portal.git
 
-Or manually extract it into:
+## Or manually extract it into:
 
 C:\xampp\htdocs\campus-event-portal
 
