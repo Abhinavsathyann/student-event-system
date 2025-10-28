@@ -65,7 +65,7 @@ C:\xampp\htdocs\campus-event-portal
 
 - MySQL
 
-Open phpMyAdmin:
+## Open phpMyAdmin:
 
 http://localhost/phpmyadmin
 
