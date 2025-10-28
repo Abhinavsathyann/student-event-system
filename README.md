@@ -125,3 +125,5 @@ VALUES ('Admin', 'admin@portal.com',
 $mail->Username = 'your_email@gmail.com';
   
 $mail->Password = 'your_app_password';
+
+-Enable “Less Secure App Access” or use Gmail App Passwords.
