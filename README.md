@@ -110,9 +110,17 @@ Email: admin@portal.com
 Password: admin123
 
 - If not, create it manually:
-- 
+  
 INSERT INTO users (name, email, password, role)
 
 VALUES ('Admin', 'admin@portal.com', 
 
 '$2y$10$N4HkCKU6eWcV5lgh8kN6TOeBGfgmkhMps/fBChY3pJKlRtu8ngU0u', 'admin');
+
+## ✉️ Email Configuration (PHPMailer)
+- Go to vendor/PHPMailer/
+
+- Configure PHPMailer credentials in your event registration handler:
+$mail->Username = 'your_email@gmail.com';
+  
+$mail->Password = 'your_app_password';
