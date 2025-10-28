@@ -69,8 +69,7 @@ C:\xampp\htdocs\campus-event-portal
 
 http://localhost/phpmyadmin
 
-
-Create a new database:
+## Create a new database:
 
 campus_event_portal
 
