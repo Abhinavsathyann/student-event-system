@@ -83,9 +83,12 @@ campus_event_portal
 app/config/database.php
 
 
-Example:
+- Example:
 
 private $host = "localhost";
+
 private $db_name = "campus_event_portal";
+
 private $username = "root";
+
 private $password = "";
