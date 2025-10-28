@@ -78,7 +78,7 @@ campus_event_portal
 /database/campus_event_portal.sql
 
 
-Configure the database connection in:
+## Configure the database connection in:
 
 app/config/database.php
 
