@@ -121,6 +121,7 @@ VALUES ('Admin', 'admin@portal.com',
 - Go to vendor/PHPMailer/
 
 - Configure PHPMailer credentials in your event registration handler:
+
 $mail->Username = 'your_email@gmail.com';
   
 $mail->Password = 'your_app_password';
