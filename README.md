@@ -92,3 +92,12 @@ private $db_name = "campus_event_portal";
 private $username = "root";
 
 private $password = "";
+
+
+## 3️⃣ Run the Project
+
+- Student Portal:
+👉 http://localhost/campus-event-portal/public/
+
+- Admin Dashboard:
+👉 http://localhost/campus-event-portal/admin/
