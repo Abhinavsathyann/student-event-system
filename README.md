@@ -157,3 +157,7 @@ git commit -m "Added new feature"
 git push origin feature/YourFeature
 
 5 Create a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License — feel free to modify and use it for educational or commercial purposes.
