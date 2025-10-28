@@ -127,3 +127,15 @@ $mail->Username = 'your_email@gmail.com';
 $mail->Password = 'your_app_password';
 
 -Enable “Less Secure App Access” or use Gmail App Passwords.
+
+## 🧩 Future Enhancements
+
+✅ AJAX search and filtering
+
+✅ Image preview before upload
+
+✅ Event approval system
+
+✅ Notification system for updates
+
+✅ Responsive mobile-friendly UI
