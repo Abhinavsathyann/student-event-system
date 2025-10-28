@@ -73,8 +73,7 @@ http://localhost/phpmyadmin
 
 campus_event_portal
 
-
-Import the provided SQL file:
+## Import the provided SQL file:
 
 /database/campus_event_portal.sql
 
