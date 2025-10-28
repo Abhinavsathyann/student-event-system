@@ -59,12 +59,11 @@ Make sure these are installed on your system:
 
 C:\xampp\htdocs\campus-event-portal
 
+## Start XAMPP and activate:
 
-Start XAMPP and activate:
+- Apache
 
-Apache
-
-MySQL
+- MySQL
 
 Open phpMyAdmin:
 
