@@ -21,3 +21,4 @@ if(isset($_POST['register'])){
   <input type="password" name="password" placeholder="Password" required><br>
   <button type="submit" name="register">Register</button>
 </form>
+login.php
